@@ -12,7 +12,7 @@ export default function Sidebar() {
         { name: 'Tracking', href: '/tracking' }
     ];
     const [darkMode, setDarkMode] = useState(false);
-
+    const Dark = darkMode ? 'Light' : 'Dark';
     useEffect(() => {
         if (darkMode) {
             document.documentElement.classList.add('dark');
@@ -21,27 +21,17 @@ export default function Sidebar() {
         }
     }, [darkMode]);
     return (
-        <div className="h-screen bg-blue-600 p-6 w-64 fixed flex flex-col justify-between">
-            <div className="dark:text-white font-bold text-2xl mb-8">
+        <div className="h-screen bg-blue-600 dark:bg-blue-950 p-6 w-64 fixed flex flex-col justify-between">
+            <div className='flex items-center justify-center'>
                 <Imagen src={logo} alt="Logo" className="w-20 h-auto" />
-                <div className="flex items-center ml-4">
-                    <input
-                        type="checkbox"
-                        id="darkModeToggle"
-                        checked={darkMode}
-                        onChange={() => setDarkMode(!darkMode)}
-                        className="mr-2"
-                    />
-                    <label htmlFor="darkModeToggle" className="text-sm text-black dark:text-white">
-                        Dark Mode
-                    </label>
-                </div>
+            </div>
+            <div className="text-white dark:text-yellow-400 font-bold text-2xl mb-8">
                 Monitor TWG
             </div>
             <nav className="flex flex-col space-y-4">
                 {navItems.map(item => (
                     <Link key={item.name} href={item.href} legacyBehavior>
-                        <a className="flex items-center dark:text-white px-3 py-2 rounded-md hover:bg-blue-700">
+                        <a className="flex items-center text-white dark:text-yellow-400 px-3 py-2 rounded-md hover:bg-blue-700">
                             {item.name}
                         </a>
                     </Link>
@@ -51,12 +41,12 @@ export default function Sidebar() {
                 <LogoutButton />
                 <button
                     onClick={() => setDarkMode(!darkMode)}
-                    className="ml-4 p-2 rounded bg-blue-500 dark:text-white dark:bg-blue-700"
+                    className="ml-4 p-2 rounded bg-blue-950 dark:bg-blue-600 text-yellow-400 dark:text-white cursor-pointer"
                 >
-                    Toggle Dark Mode
+                    Toggle {Dark} Mode
                 </button>
             </div>
-            <div className="dark:text-white text-sm mt-4">
+            <div className="text-white dark:text-yellow-400 text-sm mt-4">
                 &copy; 2025 My Dashboard
             </div>
         </div>

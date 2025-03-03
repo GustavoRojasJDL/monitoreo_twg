@@ -64,9 +64,9 @@ export default function Tracking() {
 
     return (
         <div className="flex">
-            <div className="flex-grow min-h-screen dark:bg-gray-100 p-6 ml-64">
+            <div className="flex-grow min-h-screen bg-gray-100 dark:bg-gray-950 p-6 ml-64">
                 <MapComponent vehicleData={vehicleData} selectedLocation={selectedLocation} />
-                <Box sx={{ height: 400, width: '100%', mt: 2 }}>
+                <Box sx={{ height: 400, width: '100%', mt: 2 }} >
                     <DataGrid onRowClick={handleEvent}
                         rows={rows}
                         columns={columns}
@@ -75,6 +75,7 @@ export default function Tracking() {
                         onPaginationModelChange={(model) => setPaginationModel(model)}
                         disableRowSelectionOnClick
                         checkboxSelection
+                        className="dark:bg-gray-100"
                     />
                 </Box>
             </div>

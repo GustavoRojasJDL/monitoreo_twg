@@ -42,6 +42,7 @@ export default function Histogram() {
                     left: 20,
                     bottom: 5,
                 }}
+                className='bg-gray-100'
             >
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="date" />

@@ -4,10 +4,12 @@
 
 @layer base {
   body {
-    @apply bg-white text-black dark:bg-gray-100 dark:text-white;
+    @apply bg-white text-black dark:bg-[#121212] dark:text-[#E0E0E0];
   }
-
+  
   .logo {
     @apply w-24 h-auto;
   }
 }
+
+@custom-variant dark (&:where(.dark, .dark *));

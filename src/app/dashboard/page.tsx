@@ -15,10 +15,10 @@ export default function Dashboard() {
         }
     }, [router]);
     return (
-        <div className="flex-grow min-h-screen dark:bg-gray-100 p-6 ml-64">
-            <h1 className="text-4xl font-bold mb-8 text-center text-blue-600">Dashboard</h1>
+        <div className="flex-grow min-h-screen bg-gray-100 dark:bg-gray-900 p-6 ml-64">
+            <h1 className="text-4xl font-bold mb-8 text-center text-blue-600 dark:text-white">Dashboard</h1>
             <div className="mt-8">
-                <h2 className="text-3xl font-semibold mb-4 text-center text-blue-600">Historial de Kilómetros Recorridos</h2>
+                <h2 className="text-3xl font-semibold mb-4 text-center text-blue-600 dark:text-white">Historial de Kilómetros Recorridos</h2>
                 <Histogram />
             </div>
         </div>
