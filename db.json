@@ -1,0 +1,1494 @@
+{
+  "users": [
+    {
+      "email": "Taurean34@gmail.com",
+      "password": "SAw_3cdaNARlOuH"
+    },
+    {
+      "email": "Tremaine_Jakubowski61@hotmail.com",
+      "password": "1v1IuTXlnqdqB47"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "vehicleId": "Vehicle-1",
+      "plate": "DL91WJI",
+      "vin": "8U2AMZ3UCLP812260",
+      "model": "Fiesta",
+      "currentPosition": {
+        "lat": 16.05279,
+        "lng": -102.28616
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 390
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 259
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 177
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 465
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 416
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 283
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 220
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 373
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 333
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 485
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 443
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 204
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 298
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 356
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 324
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 2,
+      "vehicleId": "Vehicle-2",
+      "plate": "CM40ZCA",
+      "vin": "H6SRNL74KLKC98965",
+      "model": "CX-9",
+      "currentPosition": {
+        "lat": 28.67555,
+        "lng": -106.42232
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 157
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 395
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 218
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 392
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 365
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 291
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 302
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 373
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 376
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 178
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 131
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 274
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 279
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 296
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 130
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 3,
+      "vehicleId": "Vehicle-3",
+      "plate": "JN45YHL",
+      "vin": "4MJ5GK6VPJAB11450",
+      "model": "911",
+      "currentPosition": {
+        "lat": 30.68706,
+        "lng": -99.07271
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 288
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 283
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 334
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 456
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 464
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 377
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 278
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 497
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 151
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 226
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 255
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 298
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 328
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 140
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 205
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 4,
+      "vehicleId": "Vehicle-4",
+      "plate": "KZ98KTN",
+      "vin": "1GLC78T9FASW99129",
+      "model": "XTS",
+      "currentPosition": {
+        "lat": 16.204,
+        "lng": -98.25755
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 282
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 411
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 149
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 355
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 108
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 244
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 442
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 390
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 268
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 368
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 431
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 454
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 364
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 425
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 446
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 5,
+      "vehicleId": "Vehicle-5",
+      "plate": "EF75ZGF",
+      "vin": "GE2TA5HJR1DV90542",
+      "model": "Fiesta",
+      "currentPosition": {
+        "lat": 29.45921,
+        "lng": -112.0902
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 222
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 183
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 396
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 300
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 429
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 175
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 303
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 267
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 391
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 443
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 499
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 481
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 410
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 495
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 260
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 6,
+      "vehicleId": "Vehicle-6",
+      "plate": "XI10ENT",
+      "vin": "TBWUFRJ0M7GB12688",
+      "model": "Model 3",
+      "currentPosition": {
+        "lat": 27.51229,
+        "lng": -108.68338
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 365
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 348
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 218
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 392
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 224
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 403
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 192
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 194
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 267
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 369
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 415
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 403
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 479
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 148
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 485
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 7,
+      "vehicleId": "Vehicle-7",
+      "plate": "AP08TPB",
+      "vin": "6LDLYDHEFDZ779232",
+      "model": "Model Y",
+      "currentPosition": {
+        "lat": 23.58278,
+        "lng": -100.02652
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 292
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 386
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 322
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 263
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 382
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 169
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 130
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 229
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 459
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 435
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 472
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 342
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 452
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 345
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 155
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 8,
+      "vehicleId": "Vehicle-8",
+      "plate": "AS55LWU",
+      "vin": "4X2F0KHUFJN597822",
+      "model": "Roadster",
+      "currentPosition": {
+        "lat": 23.28221,
+        "lng": -111.21634
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 219
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 210
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 199
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 241
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 476
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 301
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 256
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 403
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 225
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 152
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 496
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 421
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 142
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 207
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 173
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 9,
+      "vehicleId": "Vehicle-9",
+      "plate": "HZ66DWL",
+      "vin": "JTPHRNFB8DZF78889",
+      "model": "Camaro",
+      "currentPosition": {
+        "lat": 19.17694,
+        "lng": -87.87433
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 106
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 306
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 149
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 118
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 481
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 182
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 386
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 397
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 477
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 440
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 485
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 171
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 420
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 246
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 105
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 10,
+      "vehicleId": "Vehicle-10",
+      "plate": "IY52WZX",
+      "vin": "VX28A74GKLRB78823",
+      "model": "CTS",
+      "currentPosition": {
+        "lat": 27.62949,
+        "lng": -94.67516
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 487
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 263
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 188
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 498
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 199
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 374
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 466
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 363
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 186
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 422
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 207
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 206
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 169
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 346
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 469
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 11,
+      "vehicleId": "Vehicle-11",
+      "plate": "AF34RIB",
+      "vin": "WSXVV2UHS4H807215",
+      "model": "Element",
+      "currentPosition": {
+        "lat": 29.85657,
+        "lng": -109.91457
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 488
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 227
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 453
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 275
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 154
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 212
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 417
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 165
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 297
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 217
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 463
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 421
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 277
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 272
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 252
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 12,
+      "vehicleId": "Vehicle-12",
+      "plate": "GD13MCD",
+      "vin": "2YHJ19TJXYCZ62780",
+      "model": "Altima",
+      "currentPosition": {
+        "lat": 21.61471,
+        "lng": -118.0944
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 231
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 220
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 394
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 169
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 369
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 297
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 265
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 268
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 278
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 299
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 260
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 188
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 333
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 258
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 424
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 13,
+      "vehicleId": "Vehicle-13",
+      "plate": "OX78UMD",
+      "vin": "PHLGT50RZ6ZD60489",
+      "model": "Sentra",
+      "currentPosition": {
+        "lat": 25.88093,
+        "lng": -106.21514
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 436
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 389
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 352
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 334
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 117
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 318
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 235
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 277
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 414
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 318
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 364
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 467
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 155
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 372
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 122
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 14,
+      "vehicleId": "Vehicle-14",
+      "plate": "CE94RFU",
+      "vin": "HMKN5CL5P2HS62590",
+      "model": "XTS",
+      "currentPosition": {
+        "lat": 23.59153,
+        "lng": -113.46755
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 371
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 389
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 421
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 439
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 114
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 316
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 297
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 305
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 439
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 274
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 468
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 461
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 311
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 284
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 406
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 15,
+      "vehicleId": "Vehicle-15",
+      "plate": "FV52NGD",
+      "vin": "XM4M11J3VDU123005",
+      "model": "Explorer",
+      "currentPosition": {
+        "lat": 22.08196,
+        "lng": -104.06484
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 156
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 291
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 337
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 342
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 413
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 191
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 277
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 180
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 190
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 172
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 235
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 230
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 380
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 442
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 250
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 16,
+      "vehicleId": "Vehicle-16",
+      "plate": "PI35NMJ",
+      "vin": "JH16NXGKH3A654329",
+      "model": "V90",
+      "currentPosition": {
+        "lat": 27.62559,
+        "lng": -100.67225
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 152
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 250
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 186
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 351
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 322
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 296
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 378
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 207
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 269
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 489
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 495
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 193
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 229
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 256
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 282
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 17,
+      "vehicleId": "Vehicle-17",
+      "plate": "IK24YHA",
+      "vin": "VV5BNS4VTVWH49447",
+      "model": "Roadster",
+      "currentPosition": {
+        "lat": 15.2984,
+        "lng": -90.16155
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 297
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 245
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 175
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 493
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 456
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 140
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 192
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 305
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 221
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 384
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 399
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 259
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 353
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 128
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 455
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 18,
+      "vehicleId": "Vehicle-18",
+      "plate": "FW05RVB",
+      "vin": "94E90JE019C343969",
+      "model": "A8",
+      "currentPosition": {
+        "lat": 16.62296,
+        "lng": -118.36628
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 275
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 239
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 165
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 222
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 457
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 342
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 457
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 461
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 164
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 386
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 500
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 146
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 467
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 204
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 196
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 19,
+      "vehicleId": "Vehicle-19",
+      "plate": "VV03RZK",
+      "vin": "JGVC3E7USPVE67408",
+      "model": "Camaro",
+      "currentPosition": {
+        "lat": 23.60087,
+        "lng": -112.71634
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 204
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 410
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 452
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 267
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 456
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 471
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 247
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 411
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 270
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 305
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 408
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 332
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 430
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 428
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 123
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": 20,
+      "vehicleId": "Vehicle-20",
+      "plate": "WW40GJG",
+      "vin": "7N0YXS3TRYVW19316",
+      "model": "Corvette",
+      "currentPosition": {
+        "lat": 21.13539,
+        "lng": -100.16903
+      },
+      "mileageData": [
+        {
+          "date": "2/3/2025",
+          "mileage": 225
+        },
+        {
+          "date": "1/3/2025",
+          "mileage": 156
+        },
+        {
+          "date": "28/2/2025",
+          "mileage": 368
+        },
+        {
+          "date": "27/2/2025",
+          "mileage": 125
+        },
+        {
+          "date": "26/2/2025",
+          "mileage": 350
+        },
+        {
+          "date": "25/2/2025",
+          "mileage": 402
+        },
+        {
+          "date": "24/2/2025",
+          "mileage": 380
+        },
+        {
+          "date": "23/2/2025",
+          "mileage": 114
+        },
+        {
+          "date": "22/2/2025",
+          "mileage": 484
+        },
+        {
+          "date": "21/2/2025",
+          "mileage": 295
+        },
+        {
+          "date": "20/2/2025",
+          "mileage": 204
+        },
+        {
+          "date": "19/2/2025",
+          "mileage": 121
+        },
+        {
+          "date": "18/2/2025",
+          "mileage": 208
+        },
+        {
+          "date": "17/2/2025",
+          "mileage": 307
+        },
+        {
+          "date": "16/2/2025",
+          "mileage": 351
+        }
+      ],
+      "selected": false
+    }
+  ]
+}
