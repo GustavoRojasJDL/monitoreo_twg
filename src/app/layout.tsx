@@ -25,6 +25,7 @@ export default function RootLayout({
   const isLoginPage = pathname === '/login';
   return (
     <html lang="en" className="dark">
+      <title>Monitoreo TWG</title>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {!isLoginPage &&
           <Sidebar />
