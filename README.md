@@ -53,5 +53,24 @@ El archivo package.json contiene los siguientes scripts:
   - start:json-server: Inicia JSON Server en el puerto 3001 para mockear el API que provee la informacion a la aplicacion web.
   - generate-fake-data: Genera datos falsos utilizando el script mockData.js.
 
+## Datos login
+  - Cuando temina de ejecutarse el comando para generar los datos falsos, podras visualizarlos en el archivo db.json que se genero en la raiz del proyecto 2 usuarios con los cuales iniciar sesion.
+    ```json
+      [
+        {
+          "email": "Taurean34@gmail.com",
+          "password": "SAw_3cdaNARlOuH"
+        },
+        {
+          "email": "Tremaine_Jakubowski61@hotmail.com",
+          "password": "1v1IuTXlnqdqB47"
+        }
+      ]
+    ```
+  - El proyecto mismo trae un archivo que se puede usar, pero si deseas obtener nueva informacion solo debes volver a ejecutar el comando
+    ```bash
+      npm run generate-fake-data
+    ```
+
 ## Paso 5: Acceder a la aplicación
   1. Abrir tu navegador web y acceder a http://localhost:3000 para ver la aplicación en          funcionamiento.
