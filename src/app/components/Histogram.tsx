@@ -5,11 +5,11 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 import { getRandomColor } from '../utils/helpers';
 import { fetchVehiclesData } from '../utils/api';
 
-const aggregateMileageData = (fleetMileageData: any) => {
-    const aggregatedData: { [key: string]: { [vehicle: string]: string; date: string; } } = {};
+const aggregateMileageData = (fleetMileageData: []) => {
+    const aggregatedData: { [key: string]: { [vehicle: string]: number | string; date: string; } } = {};
 
-    fleetMileageData.forEach((vehicle: { id: number; vehicleId: string; currentPosition: any; mileageData: any[]; }) => {
-        vehicle.mileageData.forEach((entry: { date: string; mileage: any; }) => {
+    fleetMileageData.forEach((vehicle: { id: number; vehicleId: string; currentPosition: { lat: number, lng: number }; mileageData: []; }) => {
+        vehicle.mileageData.forEach((entry: { date: string; mileage: number; }) => {
             if (!(entry.date in aggregatedData)) {
                 aggregatedData[entry.date] = { date: entry.date };
             }
@@ -21,7 +21,7 @@ const aggregateMileageData = (fleetMileageData: any) => {
 };
 
 export default function Histogram() {
-    const [data, setData] = useState<{ [vehicle: string]: string; date: string; }[]>([]);
+    const [data, setData] = useState<{ [vehicle: string]: string | number; date: string; }[]>([]);
 
     useEffect(() => {
         fetchVehiclesData()

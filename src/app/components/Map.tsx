@@ -1,23 +1,23 @@
 "use client";
 
 import dynamic from 'next/dynamic';
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+import { useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import L from 'leaflet';
+// import L from 'leaflet';
 import { useEffect } from 'react';
 
 // Configuración de los iconos personalizados
-const DefaultIcon = L.icon({
-    iconUrl: '/marker-icon.png',
-    iconRetinaUrl: '/marker-icon-2x.png',
-    shadowUrl: '/marker-shadow.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-    shadowSize: [41, 41]
-});
+// const DefaultIcon = L.icon({
+//     iconUrl: '/marker-icon.png',
+//     iconRetinaUrl: '/marker-icon-2x.png',
+//     shadowUrl: '/marker-shadow.png',
+//     iconSize: [25, 41],
+//     iconAnchor: [12, 41],
+//     popupAnchor: [1, -34],
+//     shadowSize: [41, 41]
+// });
 
-L.Marker.prototype.options.icon = DefaultIcon;
+// L.Marker.prototype.options.icon = DefaultIcon;
 
 const Map = dynamic(() => import('react-leaflet').then(mod => mod.MapContainer), { ssr: false });
 const TileLayerComponent = dynamic(() => import('react-leaflet').then(mod => mod.TileLayer), { ssr: false });
@@ -25,7 +25,7 @@ const MarkerComponent = dynamic(() => import('react-leaflet').then(mod => mod.Ma
 const PopupComponent = dynamic(() => import('react-leaflet').then(mod => mod.Popup), { ssr: false });
 
 // Componente para centrar el mapa al cargar
-const SetViewOnLoad = ({ center, zoom }: any) => {
+const SetViewOnLoad = ({ center, zoom }: { center: [number, number], zoom: number }) => {
     const map = useMap();
     useEffect(() => {
         map.setView(center, zoom);
@@ -34,7 +34,7 @@ const SetViewOnLoad = ({ center, zoom }: any) => {
 };
 
 // Componente para centrar el mapa al hacer clic
-const CenterMap = ({ latitude, longitude }: any) => {
+const CenterMap = ({ latitude, longitude }: { latitude: number, longitude: number }) => {
     const map = useMap();
     useEffect(() => {
         if (latitude && longitude) {
@@ -44,8 +44,8 @@ const CenterMap = ({ latitude, longitude }: any) => {
     return null;
 };
 
-const MapComponent = ({ vehicleData, selectedLocation }: any) => {
-    const center = [51.505, -0.09];
+const MapComponent = ({ vehicleData, selectedLocation }: { vehicleData: { id: number, vehicleId: string, plate: string, vin: string, model: string, currentPosition: { lat: number, lng: number }, mileageData: [{ date: string, mileage: number }] }[], selectedLocation: { latitude: number, longitude: number } }) => {
+    const center: [number, number] = [51.505, -0.09];
     const zoom = 2;
 
     return (
@@ -55,7 +55,7 @@ const MapComponent = ({ vehicleData, selectedLocation }: any) => {
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution="&copy; OpenStreetMap contributors"
             />
-            {vehicleData.map((vehicle: any) => (
+            {vehicleData.map((vehicle: { id: number, vehicleId: string, currentPosition: { lat: number, lng: number } }) => (
                 <MarkerComponent key={vehicle.id} position={[vehicle.currentPosition.lat, vehicle.currentPosition.lng]}>
                     <PopupComponent>
                         {vehicle.vehicleId}

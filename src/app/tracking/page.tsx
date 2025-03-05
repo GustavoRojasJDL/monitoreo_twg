@@ -2,20 +2,18 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { DataGrid, GridEventListener } from '@mui/x-data-grid';
 import { Box } from '@mui/material';
 
-import Sidebar from "@/app/components/Sidebar";
 import { clearAuthToken, isAuthTokenValid } from "@/app/utils/auth";
 import { fetchVehiclesData } from "../utils/api";
 import MapComponent from "../components/Map";
 
 export default function Tracking() {
     const router = useRouter();
-    const [vehicleData, setVehicleData] = useState<any[]>([]);
-    const [rows, setRows] = useState<any[]>([]);
+    const [vehicleData, setVehicleData] = useState<{ id: number, vehicleId: string, plate: string, vin: string, model: string, currentPosition: { lat: number, lng: number }, mileageData: [{ date: string, mileage: number }] }[]>([]);
+    const [rows, setRows] = useState<{ id: number, vehicleId: string, plate: string, vin: string, model: string, latitude: number, longitude: number }[]>([]);
     const [paginationModel, setPaginationModel] = useState({
         page: 0,
         pageSize: 5,
@@ -33,7 +31,7 @@ export default function Tracking() {
         fetchVehiclesData()
             .then(data => {
                 setVehicleData(data);
-                setRows(data.map((vehicle: any) => ({
+                setRows(data.map((vehicle: { id: number, vehicleId: string, plate: string, vin: string, model: string, currentPosition: { lat: number, lng: number }, mileageData: [{ date: string, mileage: number }] }) => ({
                     id: vehicle.id,
                     vehicleId: vehicle.vehicleId,
                     plate: vehicle.plate,

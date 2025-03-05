@@ -25,7 +25,7 @@ export default function LoginPage() {
       .then(data => { setUsers(data) });
   }, []);
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const user = users.find((user: { email: string; password: string; }) => user.email === email && user.password === password);
     if (user) {

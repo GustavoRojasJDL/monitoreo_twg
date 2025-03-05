@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Sidebar from './components/Sidebar'; // Asegúrate de que la ruta sea correcta
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
